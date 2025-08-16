@@ -9,7 +9,7 @@
     <arg name="arg_name" default="default_value" />
     
     <!-- Nodes -->
-    <node name="dwa_planner" pkg="dwa" type="dwa_planner" output="screen">
+    <node name="dwa_planner" pkg="dwa_demo" type="dwa_planner" output="screen">
         <param name="node_parameter" value="value" />
         <remap from="/static_obstacles" to="/static_obstacles" />
     </node>

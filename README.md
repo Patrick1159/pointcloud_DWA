@@ -3,12 +3,20 @@
 A ROS project implementing a Dynamic Window Approach (DWA) local planner that works with point cloud data.
 
 ## Project Structure
+
+```plaintext
 .
-├── build/          # Build artifacts and CMake configuration
-├── devel/          # Development space with setup scripts
-└── src/            # Source code
-    ├── CMakeLists.txt
-    └── dwa/        # DWA planner implementation
+
+├── 📁 build/
+
+├── 📁 devel/
+
+└── 📁 src/
+
+    ├── 📜 CMakeLists.txt
+
+    └── 📁 dwa/
+```
 
 ## Features
 - Dynamic Window Approach local planner implementation
