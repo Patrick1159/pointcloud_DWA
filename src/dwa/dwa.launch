@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<launch>
+    <!-- Parameters -->
+    <param name="DEBUG" value="False" />
+    <param name="RVIZ_GOAL" value="True" />
+    <param name="max_vel" value="5.0" />
+
+    <!-- Arguments -->
+    <arg name="arg_name" default="default_value" />
+    
+    <!-- Nodes -->
+    <node name="dwa_planner" pkg="dwa" type="dwa_planner" output="screen">
+        <param name="node_parameter" value="value" />
+        <remap from="/static_obstacles" to="/static_obstacles" />
+    </node>
+    
+
+</launch>
